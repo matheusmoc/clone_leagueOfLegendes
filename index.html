@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id='container'>
+         <div class="logo">
+             <img src="./img/Sem Título-1.jpg" alt="início">
+        </div>
+        <h1>Fazer login</h1>
+        <!-- <form action=""  method=""></form>> -->
+        <form id='login-form'>
+            <div class='login-input'>
+                <label for="name"></label>
+                <!--legenda para um item em uma interface de usuário-->
+                <input type="text" name='name' id="name" placeholder='Nome de usuário' data-min-length='3'>
+            </div>
+
+            <div class='login-input'>
+                <label for="password"></label>
+                <!--legenda para um item em uma interface de usuário-->
+                <input type='password' name='password' id='password' placeholder='Senha'>
+            </div>
+
+            <div class='login-checkbox'>
+                <input type='checkbox' name='agreement' id='agreement'></input>
+                <label for="checkbox" id ='agreement-label'>Manter login</label>
+            </div>
+
+            
+            
+            <div id='btn-submit'>
+                <input class='send' type='submit' id='btn-submit' value='&rarr;'></button>
+            </div>
+
+            <p class='error-validation template'></p>
+        </form>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
