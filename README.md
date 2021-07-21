@@ -1,2 +1,2 @@
 # clone_leagueOfLegends
-Clone client do jogo League of Legendas com HTML+CSS e javascript
+Clone tela de login do client do jogo League of Legendas com HTML+CSS e javascript
